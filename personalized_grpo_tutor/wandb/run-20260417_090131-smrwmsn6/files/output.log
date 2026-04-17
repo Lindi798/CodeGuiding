@@ -1,0 +1,205 @@
+  0%|                                                                        | 0/500 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+  7%|████                                                         | 33/500 [30:02<7:09:32, 55.19s/it]Traceback (most recent call last):
+{'loss': '4.117e-05', 'grad_norm': '0.000618', 'learning_rate': '9.98e-06', 'num_tokens': '9030', 'completions/mean_length': '482.8', 'completions/min_length': '395', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '139', 'completions/min_terminated_length': '139', 'completions/max_terminated_length': '139', 'rewards/reward_func/mean': '0.4', 'rewards/reward_func/std': '0', 'reward': '0.4', 'reward_std': '0', 'frac_reward_zero_std': '1', 'kl': '0.001047', 'entropy': '1.565', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.44', 'epoch': '0.004'}
+{'loss': '4.406e-05', 'grad_norm': '0.0005417', 'learning_rate': '9.94e-06', 'num_tokens': '1.768e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.3375', 'rewards/reward_func/std': '0.09465', 'reward': '0.3375', 'reward_std': '0.09465', 'frac_reward_zero_std': '0.5', 'kl': '0.001101', 'entropy': '1.56', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.32', 'epoch': '0.008'}
+{'loss': '-0.004228', 'grad_norm': '0.1426', 'learning_rate': '9.9e-06', 'num_tokens': '2.63e+04', 'completions/mean_length': '503.9', 'completions/min_length': '479.5', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '223.5', 'completions/min_terminated_length': '223.5', 'completions/max_terminated_length': '223.5', 'rewards/reward_func/mean': '0.2875', 'rewards/reward_func/std': '0.1707', 'reward': '0.2875', 'reward_std': '0.1707', 'frac_reward_zero_std': '0', 'kl': '0.001222', 'entropy': '1.212', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.3', 'epoch': '0.012'}
+{'loss': '6.097e-05', 'grad_norm': '0.0007439', 'learning_rate': '9.86e-06', 'num_tokens': '3.378e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.4', 'rewards/reward_func/std': '0', 'reward': '0.4', 'reward_std': '0', 'frac_reward_zero_std': '1', 'kl': '0.001524', 'entropy': '1.627', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.06', 'epoch': '0.016'}
+{'loss': '-0.06747', 'grad_norm': '0.1748', 'learning_rate': '9.82e-06', 'num_tokens': '4.058e+04', 'completions/mean_length': '468.5', 'completions/min_length': '338', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '82', 'completions/min_terminated_length': '82', 'completions/max_terminated_length': '82', 'rewards/reward_func/mean': '0.2625', 'rewards/reward_func/std': '0.09465', 'reward': '0.2625', 'reward_std': '0.09465', 'frac_reward_zero_std': '0.5', 'kl': '0.001885', 'entropy': '1.564', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.73', 'epoch': '0.02'}
+{'loss': '6.495e-05', 'grad_norm': '0.1377', 'learning_rate': '9.78e-06', 'num_tokens': '4.943e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.1625', 'rewards/reward_func/std': '0.09787', 'reward': '0.1625', 'reward_std': '0.09787', 'frac_reward_zero_std': '0', 'kl': '0.001625', 'entropy': '1.186', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.09', 'epoch': '0.024'}
+{'loss': '0.0001083', 'grad_norm': '0.001434', 'learning_rate': '9.74e-06', 'num_tokens': '5.883e+04', 'completions/mean_length': '472.6', 'completions/min_length': '354.5', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '98.5', 'completions/min_terminated_length': '98.5', 'completions/max_terminated_length': '98.5', 'rewards/reward_func/mean': '0.3', 'rewards/reward_func/std': '0.1155', 'reward': '0.3', 'reward_std': '0.1155', 'frac_reward_zero_std': '0.5', 'kl': '0.002651', 'entropy': '1.971', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.64', 'epoch': '0.028'}
+{'loss': '8.345e-05', 'grad_norm': '0.1562', 'learning_rate': '9.7e-06', 'num_tokens': '6.975e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.35', 'rewards/reward_func/std': '0.1', 'reward': '0.35', 'reward_std': '0.1', 'frac_reward_zero_std': '0.5', 'kl': '0.002086', 'entropy': '1.713', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '57.27', 'epoch': '0.032'}
+{'loss': '8.888e-05', 'grad_norm': '0.1562', 'learning_rate': '9.66e-06', 'num_tokens': '7.726e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.275', 'rewards/reward_func/std': '0.1425', 'reward': '0.275', 'reward_std': '0.1425', 'frac_reward_zero_std': '0', 'kl': '0.002222', 'entropy': '1.488', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.84', 'epoch': '0.036'}
+{'loss': '9.358e-05', 'grad_norm': '0.1494', 'learning_rate': '9.62e-06', 'num_tokens': '8.751e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.15', 'rewards/reward_func/std': '0.1816', 'reward': '0.15', 'reward_std': '0.1816', 'frac_reward_zero_std': '0', 'kl': '0.002339', 'entropy': '1.776', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.35', 'epoch': '0.04'}
+{'loss': '0.0001298', 'grad_norm': '0.1514', 'learning_rate': '9.58e-06', 'num_tokens': '9.551e+04', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.3875', 'rewards/reward_func/std': '0.025', 'reward': '0.3875', 'reward_std': '0.025', 'frac_reward_zero_std': '0.5', 'kl': '0.003247', 'entropy': '1.608', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.35', 'epoch': '0.044'}
+{'loss': '0.0001321', 'grad_norm': '0.001556', 'learning_rate': '9.54e-06', 'num_tokens': '1.029e+05', 'completions/mean_length': '480.1', 'completions/min_length': '384.5', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '128.5', 'completions/min_terminated_length': '128.5', 'completions/max_terminated_length': '128.5', 'rewards/reward_func/mean': '0.4', 'rewards/reward_func/std': '0', 'reward': '0.4', 'reward_std': '0', 'frac_reward_zero_std': '1', 'kl': '0.003306', 'entropy': '1.744', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.4', 'epoch': '0.048'}
+{'loss': '0.03661', 'grad_norm': '0.1484', 'learning_rate': '9.5e-06', 'num_tokens': '1.096e+05', 'completions/mean_length': '479.4', 'completions/min_length': '381.5', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '125.5', 'completions/min_terminated_length': '125.5', 'completions/max_terminated_length': '125.5', 'rewards/reward_func/mean': '0.325', 'rewards/reward_func/std': '0.15', 'reward': '0.325', 'reward_std': '0.15', 'frac_reward_zero_std': '0', 'kl': '0.002871', 'entropy': '1.605', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.39', 'epoch': '0.052'}
+{'loss': '0.0001536', 'grad_norm': '0.1279', 'learning_rate': '9.46e-06', 'num_tokens': '1.172e+05', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.275', 'rewards/reward_func/std': '0.1957', 'reward': '0.275', 'reward_std': '0.1957', 'frac_reward_zero_std': '0', 'kl': '0.00384', 'entropy': '1.451', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.07', 'epoch': '0.056'}
+{'loss': '0.0001416', 'grad_norm': '0.1709', 'learning_rate': '9.42e-06', 'num_tokens': '1.266e+05', 'completions/mean_length': '511', 'completions/min_length': '508', 'completions/max_length': '512', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '252', 'completions/min_terminated_length': '252', 'completions/max_terminated_length': '252', 'rewards/reward_func/mean': '0.3625', 'rewards/reward_func/std': '0.075', 'reward': '0.3625', 'reward_std': '0.075', 'frac_reward_zero_std': '0.5', 'kl': '0.00354', 'entropy': '1.784', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.09', 'epoch': '0.06'}
+{'loss': '0.0001137', 'grad_norm': '0.1338', 'learning_rate': '9.38e-06', 'num_tokens': '1.355e+05', 'completions/mean_length': '512', 'completions/min_length': '512', 'completions/max_length': '512', 'completions/clipped_ratio': '1', 'completions/mean_terminated_length': '0', 'completions/min_terminated_length': '0', 'completions/max_terminated_length': '0', 'rewards/reward_func/mean': '0.1875', 'rewards/reward_func/std': '0.2185', 'reward': '0.1875', 'reward_std': '0.2185', 'frac_reward_zero_std': '0', 'kl': '0.002844', 'entropy': '1.568', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.92', 'epoch': '0.064'}
+  File "/home/liyongqi/project/personalized_grpo_tutor/scripts/run_grpo.py", line 27, in <module>
+    run_grpo(args.config)
+  File "/home/liyongqi/project/personalized_grpo_tutor/src/pgt/training/grpo_trainer.py", line 154, in run_grpo
+    trainer.train()
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1085, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1114, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1709, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1573, in _generate
+    completion_ids, logprobs, extra_fields = self._generate_single_turn(prompt_ids, images, multimodal_fields)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1330, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 313, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 47, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/peft/tuners/lora/bnb.py", line 547, in forward
+    result = self.base_layer(x, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 556, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/autograd/function.py", line 583, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/functional.py", line 1042, in dequantize_4bit
+    if absmax.dtype != torch.float32:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/liyongqi/project/personalized_grpo_tutor/scripts/run_grpo.py", line 27, in <module>
+    run_grpo(args.config)
+  File "/home/liyongqi/project/personalized_grpo_tutor/src/pgt/training/grpo_trainer.py", line 154, in run_grpo
+    trainer.train()
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1085, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1114, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1709, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1573, in _generate
+    completion_ids, logprobs, extra_fields = self._generate_single_turn(prompt_ids, images, multimodal_fields)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1330, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 313, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 47, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/peft/tuners/lora/bnb.py", line 547, in forward
+    result = self.base_layer(x, *args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 556, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/torch/autograd/function.py", line 583, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+  File "/data/liyongqi/conda_envs/envs/lindi/lib/python3.10/site-packages/bitsandbytes/functional.py", line 1042, in dequantize_4bit
+    if absmax.dtype != torch.float32:
+KeyboardInterrupt

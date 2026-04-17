@@ -1,0 +1,25 @@
+extends: base.yaml
+
+grpo:
+  output_subdir: grpo_qwen7b_qlora
+  init_adapter_path: /home/liyongqi/project/personalized_grpo_tutor/outputs/sft_qwen7b_lora
+  num_train_epochs: 1
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 1.0e-5
+  logging_steps: 2
+  save_steps: 50
+  max_prompt_length: 768
+  max_completion_length: 512
+  num_generations: 8
+  beta: 0.04
+  reward_log_every: 1
+
+reward:
+  code_language: python
+  w_accuracy: 1.2
+  w_steps: 0.4
+  pass_bonus: 0.1
+
+paths:
+  rl_data: /home/liyongqi/project/personalized_grpo_tutor/data/process/grpo_batch/grpo.jsonl

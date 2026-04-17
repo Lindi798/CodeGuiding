@@ -1,0 +1,15 @@
+{"time":"2026-04-17T09:01:31.309730207+08:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmps6wfias6/port-1761667.txt","pid":1761667,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-04-17T09:01:31.310644496+08:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":1761667}
+{"time":"2026-04-17T09:01:31.310611038+08:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1761667-1761907-3025521581/socket","Net":"unix"}}
+{"time":"2026-04-17T09:01:31.314585262+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-04-17T09:01:31.328119889+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"smrwmsn6","id":"1(@)"}
+{"time":"2026-04-17T09:01:31.931259154+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"smrwmsn6","id":"1(@)"}
+{"time":"2026-04-17T09:01:37.694141728+08:00","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"grngvxn7gxwd"}
+{"time":"2026-04-17T09:32:13.302127943+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2026-04-17T09:32:13.302241044+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-04-17T09:32:13.302215638+08:00","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2026-04-17T09:32:13.30236447+08:00","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2026-04-17T09:32:13.302450706+08:00","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-1761667-1761907-3025521581/socket","Net":"unix"}}
+{"time":"2026-04-17T09:33:13.274630409+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2026-04-17T09:33:13.274709476+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2026-04-17T09:33:13.274747366+08:00","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,33 @@
+project_name: personalized_grpo_tutor
+seed: 42
+
+wandb:
+  enabled: true
+  project: personalized_grpo_tutor
+  entity: null
+  mode: online
+  sft_run_name: sft_qwen7b_lora
+  grpo_run_name: grpo_qwen7b_qlora
+
+model:
+  base_model: /home/liyongqi/models/Qwen2.5-7B-Instruct
+  max_length: 2048
+  use_4bit: true
+
+lora:
+  r: 32
+  alpha: 64
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+paths:
+  output_dir: outputs
+  sft_data: data/sample_sft.jsonl
+  rl_data: data/sample_rl.jsonl

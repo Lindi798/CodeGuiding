@@ -1,0 +1,8 @@
+{"time":"2026-04-17T00:19:00.547541807+08:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp_3bpm1mr/port-1735192.txt","pid":1735192,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-04-17T00:19:00.548629277+08:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":1735192}
+{"time":"2026-04-17T00:19:00.548521451+08:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1735192-1735430-922006053/socket","Net":"unix"}}
+{"time":"2026-04-17T00:19:00.600955772+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-04-17T00:19:00.616025531+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"tw7prh19","id":"1(@)"}
+{"time":"2026-04-17T00:19:01.225554525+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"tw7prh19","id":"1(@)"}
+{"time":"2026-04-17T00:19:07.157638665+08:00","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"lhlc1x0h9bou"}
+{"time":"2026-04-17T03:59:43.768455132+08:00","level":"INFO","msg":"server: parent process exited, terminating service process"}

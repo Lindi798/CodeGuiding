@@ -1,0 +1,16 @@
+ 36%|████████████████████████                                          | 20/55 [01:59<03:33,  6.10s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'loss': '1.593', 'grad_norm': '0.07373', 'learning_rate': '0.0001925', 'entropy': '1.217', 'num_tokens': '3.9e+04', 'mean_token_accuracy': '0.6586', 'epoch': '0.09238'}
+{'loss': '1.143', 'grad_norm': '0.0498', 'learning_rate': '0.0001736', 'entropy': '1.352', 'num_tokens': '7.87e+04', 'mean_token_accuracy': '0.7209', 'epoch': '0.1848'}
+{'loss': '0.9123', 'grad_norm': '0.04419', 'learning_rate': '0.0001547', 'entropy': '0.8302', 'num_tokens': '1.195e+05', 'mean_token_accuracy': '0.7655', 'epoch': '0.2771'}
+[SFT-OnlineEval step=20] format=0.1296 acc=0.0000
+100%|██████████████████████████████████████████████████████████████████| 55/55 [09:57<00:00, 10.87s/it]
+{'loss': '0.8286', 'grad_norm': '0.03906', 'learning_rate': '0.0001358', 'entropy': '0.8364', 'num_tokens': '1.594e+05', 'mean_token_accuracy': '0.7874', 'epoch': '0.3695'}
+{'loss': '0.8487', 'grad_norm': '0.03931', 'learning_rate': '0.000117', 'entropy': '0.8844', 'num_tokens': '2.001e+05', 'mean_token_accuracy': '0.7778', 'epoch': '0.4619'}
+{'loss': '0.8213', 'grad_norm': '0.03784', 'learning_rate': '9.811e-05', 'entropy': '0.7898', 'num_tokens': '2.408e+05', 'mean_token_accuracy': '0.7846', 'epoch': '0.5543'}
+{'loss': '0.8529', 'grad_norm': '0.03979', 'learning_rate': '7.925e-05', 'entropy': '0.8416', 'num_tokens': '2.807e+05', 'mean_token_accuracy': '0.779', 'epoch': '0.6467'}
+[SFT-OnlineEval step=40] format=0.3380 acc=0.0000
+{'loss': '0.8047', 'grad_norm': '0.03564', 'learning_rate': '6.038e-05', 'entropy': '0.809', 'num_tokens': '3.213e+05', 'mean_token_accuracy': '0.7867', 'epoch': '0.739'}
+{'loss': '0.8139', 'grad_norm': '0.04004', 'learning_rate': '4.151e-05', 'entropy': '0.8001', 'num_tokens': '3.618e+05', 'mean_token_accuracy': '0.7855', 'epoch': '0.8314'}
+{'loss': '0.7518', 'grad_norm': '0.03784', 'learning_rate': '2.264e-05', 'entropy': '0.739', 'num_tokens': '4.009e+05', 'mean_token_accuracy': '0.8033', 'epoch': '0.9238'}
+{'loss': '0.7507', 'grad_norm': '0.08301', 'learning_rate': '3.774e-06', 'entropy': '0.7827', 'num_tokens': '4.346e+05', 'mean_token_accuracy': '0.7896', 'epoch': '1'}
+{'train_runtime': '600.3', 'train_samples_per_second': '0.721', 'train_steps_per_second': '0.092', 'train_loss': '0.9201', 'epoch': '1'}
