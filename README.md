@@ -720,10 +720,10 @@ MIT License - 详见 LICENSE 文件
 
 有问题或建议？欢迎提交 Issue 或 PR！
 
-**Email**: your_email@example.com  
+**Email**: 20040015lin@gmail.com  
 **GitHub**: https://github.com/yourusername/personalized_grpo_tutor
 
 ---
 
 **项目更新时间**：2026年4月17日  
-**最后维护者**：@yourusername
+**最后维护者**：@Lindi798
