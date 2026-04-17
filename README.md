@@ -339,7 +339,7 @@ personalized_grpo_tutor/
 git clone https://github.com/yourusername/personalized_grpo_tutor.git
 cd personalized_grpo_tutor
 
-# 创建虚拟环境（推荐）
+# 创建虚拟环境（或者用conda）
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # 或
